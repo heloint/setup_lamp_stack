@@ -62,5 +62,5 @@ echo "<?php phpinfo(); ?>" | sudo tee /var/www/html/phpinfo.php
 firefox localhost:80 localhost:80/phpinfo.php &
 
 # Install a better terminal text editor as alternative for Nano 
-curl https://getmic.ro | bash
-sudo mv ./micro /usr/local/bin/
+# curl https://getmic.ro | bash
+# sudo mv ./micro /usr/local/bin/
